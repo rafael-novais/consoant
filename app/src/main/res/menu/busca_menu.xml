@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/todos_option"
+        android:title="Todos os imoveis"
+        app:showAsAction="never"
+        android:onClick="load"/>
+    <item
+        android:id="@+id/aluguel_option"
+        android:title="Aluguel"
+        app:showAsAction="never"
+        android:onClick="load"/>
+    <item
+        android:id="@+id/venda_option"
+        android:title="A venda"
+        app:showAsAction="never"
+        android:onClick="load"/>
+
+</menu>
